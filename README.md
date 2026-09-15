@@ -1,6 +1,6 @@
 # Amit's Config
 
-<!-- VIDEO GOES HERE -->
+https://github.com/user-attachments/assets/75458d22-e132-4de6-b9d6-dd6297b44f40
 
 It may or may not work for your computer! But, you can read it if you'd like :)
 
