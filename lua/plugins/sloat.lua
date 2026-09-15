@@ -2,18 +2,18 @@ return {
   "vyrx-dev/sloat",
   opts = {
     float = {
-      width = 0.4, -- bigger float
+      width = 0.4,
       height = 0.5,
-      border = "single", -- different border
+      border = "rounded",
     },
     bottom = {
-      height = 15, -- taller bottom split
+      height = 15,
     },
-    root_patterns = { ".git", "Cargo.toml" }, -- custom root detection
+    root_patterns = { ".git", "Makefile", "package.json", "Cargo.toml", "go.mod" },
   },
   keys = {
-    { ";t", "<cmd>Sloat float<cr>", mode = { "n", "t" } },
+    { ";t",  "<cmd>Sloat float<cr>",  mode = { "n", "t" } },
     { ";st", "<cmd>Sloat bottom<cr>" },
-    { ";d", "<cmd>Sloat kill<cr>" },
+    { ";d",  "<cmd>Sloat kill<cr>" },
   },
 }

@@ -513,18 +513,6 @@ return {
       vim.api.nvim_buf_set_keymap(0, "n", "q", ":q<CR>", { noremap = true, silent = true }),
     }
 
-    dashboard.section.footer.opts.position = "center"
-    vim.api.nvim_create_autocmd("User", {
-      once = true,
-      pattern = "LazyVimStarted",
-      callback = function()
-        local stats = require("lazy").stats()
-        local ms = (math.floor(stats.startuptime * 100 + 0.5) / 100)
-        dashboard.section.footer.val = " " .. stats.loaded .. " plugins   " .. ms .. "ms"
-        dashboard.section.footer.opts.hl = "I2A0"
-        pcall(vim.cmd.AlphaRedraw)
-      end,
-    })
     alpha.setup(dashboard.opts)
   end,
 }
