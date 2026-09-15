@@ -7,7 +7,7 @@ It may or may not work for your computer! But, you can read it if you'd like :)
 Bye!
 
 ## Requirements
-- Neovim >= 0.10
+Neovim >= 0.10
 
 ## Languages Supported
 Go, TypeScript, JavaScript, Lua, Python, Dart/Flutter, Nix, Bash, YAML, JSON, HTML/CSS, Docker
@@ -25,5 +25,5 @@ stylua.toml
 
 ## Install
 ```sh
-git clone git@github.com:vyrx-dev/nvim-config.git ~/.config/nvim
+git clone https://github.com/vyrx-dev/nvim-config.git ~/.config/nvim
 ```
