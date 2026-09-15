@@ -2,6 +2,7 @@ return {
   { "ellisonleao/gruvbox.nvim", lazy = true, opts = { transparent_mode = false } },
   { "rose-pine/neovim", lazy = true, opts = {} },
   { "vague-theme/vague.nvim", lazy = true, opts = { transparent = false } },
+
   {
     "sainnhe/gruvbox-material",
     lazy = true,
@@ -11,6 +12,7 @@ return {
       vim.g.gruvbox_material_transparent_background = 0
     end,
   },
+
   {
     "rebelot/kanagawa.nvim",
     lazy = true,
