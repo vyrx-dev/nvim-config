@@ -1,6 +1,6 @@
-<!-- VIDEO GOES HERE -->
+# Amit's Config
 
-Hi, this config is for Amit.
+<!-- VIDEO GOES HERE -->
 
 It may or may not work for your computer! But, you can read it if you'd like :)
 
