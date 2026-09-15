@@ -2,6 +2,7 @@ return {
   { "echasnovski/mini.ai", version = "*", opts = {} },
   { "echasnovski/mini.icons", opts = {} },
   { "echasnovski/mini.pairs", opts = {} },
+  { "echasnovski/mini.tabline", opts = {} },
 
   -- minimal notification UI
   {
