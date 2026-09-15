@@ -24,6 +24,8 @@ return {
         "NvimTreeSignColumn",
         "NvimTreeEndOfBuffer",
         "NvimTreeWinSeparator",
+        "NormalFloat",
+        "FloatBorder",
       },
     },
   },
