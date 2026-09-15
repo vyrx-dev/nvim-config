@@ -1,32 +1,18 @@
-# nvim-config
+<!-- VIDEO GOES HERE -->
 
-Neovim >= 0.10 required.
+Hi, this config is for Amit.
 
-## plugins
+It may or may not work for your computer! But, you can read it if you'd like :)
 
-| category | plugins |
-|---|---|
-| plugin manager | lazy.nvim (auto-bootstrapped) |
-| lsp | nvim-lspconfig, mason, lspsaga |
-| completion | nvim-cmp, LuaSnip, friendly-snippets |
-| formatting | conform.nvim |
-| linting | nvim-lint |
-| treesitter | nvim-treesitter |
-| fuzzy find | fzf-lua, zoxide |
-| git | gitsigns, lazygit |
-| dap | nvim-dap, dapui, nvim-dap-go |
-| ai | copilot.lua, CopilotChat, windsurf |
-| ui | lualine, indent-blankline, fidget, which-key, todo-comments, alpha |
-| colorscheme | base16-nvim (black-metal default), transparent.nvim |
-| terminal | sloat |
-| file manager | yazi.nvim |
+Bye!
 
-## languages
+## Requirements
+- Neovim >= 0.10
 
+## Languages Supported
 Go, TypeScript, JavaScript, Lua, Python, Dart/Flutter, Nix, Bash, YAML, JSON, HTML/CSS, Docker
 
-## structure
-
+## Structure
 ```
 init.lua          # lazy bootstrap, options, keymaps
 after/            # filetype overrides
@@ -37,8 +23,7 @@ lua/
 stylua.toml
 ```
 
-## install
-
+## Install
 ```sh
 git clone git@github.com:vyrx-dev/nvim-config.git ~/.config/nvim
 ```

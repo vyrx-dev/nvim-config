@@ -1,5 +1,4 @@
 return {
-  -- previous colorschemes (lazy-loaded)
   { "ellisonleao/gruvbox.nvim", lazy = true, opts = { transparent_mode = false } },
   { "rose-pine/neovim", lazy = true, opts = {} },
   { "vague-theme/vague.nvim", lazy = true, opts = { transparent = false } },
@@ -34,7 +33,7 @@ return {
     },
   },
 
-  -- new default colorscheme
+  --  default colorscheme
   {
     "RRethy/base16-nvim",
     lazy = false,
